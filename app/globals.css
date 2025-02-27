@@ -2,10 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
+font {
+  font-size: large,
+}
+
+.blogCard {
+  flex-direction: row;
+  flex-grow: 1;
+  /* background-color: slategray; */
+  height: 20rem;
+  /* border-width: 2; */
+  /* border-color: red; */
+  margin: 10;
+  justify-content: space-evenly;
+}
+
+.titleText{
+  color: green;
+  font-weight: bold;
+  font-size:x-large;
+}
+
+.bodyText {
+  color: black;
+  font-weight: normal;
+  font-size: medium;
+}
+
+
+
+/* p {
+  color: black;
+  font-weight: bold;
+} */
+
+text {
+  color: green;
+
+}
+
+.header {
+  /* position: fixed; */
+  /* z-index: 100; */
+  /* top: 0px; */
+  /* background-color: red; */
+}
+
+
+/* 
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -15,7 +64,46 @@
 }
 
 body {
-  color: var(--foreground);
+  color: green;
   background: var(--background);
+  background-color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.mainTextColor {
+  font-size: medium;
+  color: green
+}
+
+.headerText{
+  font-size: x-large;
+}
+
+header
+
+.topNav {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-width: 1;
+  margin-bottom: 5;
+}
+
+.mainLeadCaptureComponent {
+  display: flex;
+  height: 500;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.footer {
+  /* position: absolute; 
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15;
+} */
+
+
