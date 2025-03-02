@@ -8,6 +8,8 @@ import voleImage from "../../public/vole.jpg";
 import clouds from '../../public/clouds.jpeg'
 
 const Page = () => {
+
+
   return (
     <div className="flex-row flex-grow justify-evenly justify-items-end">
       <a href="/blogs/Top-5-Signs-You-Have-a-Gopher-Problem-in-the-Bay-Area">

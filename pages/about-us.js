@@ -22,7 +22,7 @@ const Page = () => {
         <h1 className="text-xl font-medium text-green-700 my-2 h-[50] content-center">
           Dedicated to Exceptional Gopher Control
         </h1> */}
-        <div className=" flex">
+        <div className="flex justify-center">
           <Image
             src={image}
             width={"20%"}
