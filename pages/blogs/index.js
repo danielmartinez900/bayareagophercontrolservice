@@ -1,17 +1,21 @@
-import React from "react";
+import Head from "next/head";
 import BlogCard from "@/src/components/BlogCard/blogCard";
 
 import image from "../../public/mole-hole.jpeg";
 import backyardImage from "../../public/backyard.jpeg";
 import gopherImage from "../../public/gopher.jpg";
 import voleImage from "../../public/vole.jpg";
-import clouds from '../../public/clouds.jpeg'
+import clouds from "../../public/clouds.jpeg";
 
 const Page = () => {
-
-
   return (
     <div className="flex-row flex-grow justify-evenly justify-items-end">
+      <Head>
+        <title>Mole Busters blog</title>
+        <meta name="description" content="Mole Busters Blog" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
+      <link rel="icon" href="icon.jpg" type="image/jpg" sizes="16x16" />
       <a href="/blogs/Top-5-Signs-You-Have-a-Gopher-Problem-in-the-Bay-Area">
         <BlogCard
           image={gopherImage}
@@ -21,7 +25,6 @@ const Page = () => {
           date="02/18/2025"
         />
       </a>
-
       <a href="/blogs/Moles-Vs-Voles-Whats-The-Differnce">
         <BlogCard
           image={voleImage}
@@ -32,7 +35,6 @@ const Page = () => {
           date="02/20/2025"
         />
       </a>
-
       <a href="/blogs/How-Climate-Affects-Moles-and-Gophers-in-the-Bay-Area">
         <BlogCard
           image={clouds}

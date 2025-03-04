@@ -10,17 +10,23 @@ const Page = () => {
       <Head>
         <title>Top 5 Signs You Have a Gopher Problem in the Bay Area</title>
         <meta
-          name="blog"
+          name="description"
           content="Top 5 Signs You Have a Gopher Problem in the Bay Area"
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
+      <link rel="icon" href="icon.jpg" type="image/jpg" sizes="16x16" />
 
-      <div >
+      <div>
         <h1 className="text-2xl font-bold text-green-700 my-2 h-[50] content-center">
           Top 5 Signs You Have a Gopher Problem in the Bay Area
         </h1>
-        <div className='max-h-[300px] flex'>
-          <Image src={image} width={"20%"} style={{ objectFit: "cover", borderRadius: 8 }} />
+        <div className="max-h-[300px] flex">
+          <Image
+            src={image}
+            width={"20%"}
+            style={{ objectFit: "cover", borderRadius: 8 }}
+          />
         </div>
         <p className="font-medium">
           Dealing with gophers can be a tricky business it you don't spot their
@@ -46,9 +52,7 @@ const Page = () => {
       </div>
 
       <div className="my-5">
-        <p className="font-bold text-green-700 text-xl my-1">
-          Visible Tunnels
-        </p>
+        <p className="font-bold text-green-700 text-xl my-1">Visible Tunnels</p>
         <p>
           Unlike mole tunnels, gopher tunnels are broad and shallow, often
           resulting in sunken areas in your yard. These tunnel openings can

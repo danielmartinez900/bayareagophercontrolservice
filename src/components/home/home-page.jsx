@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Head from "next/head";
 import Script from "next/script";
 
 import logo from "../../../public/mole-logo.jpg";
@@ -11,32 +12,39 @@ import KeapForm from "./KeapForm";
 
 const HomePage = ({ data }) => {
   return (
-    <div className="">
+    <div className="mt-2">
+      <Head>
+        <title>Mole Busters</title>
+        <meta name="description" content="Mole Busters" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      </Head>
+      <link rel="icon" href="icon.jpg" type="image/jpg" sizes="16x16" />
       <Script
         src="https://molebusters.infusionsoft.app/app/webTracking/getTrackingCode"
         strategy="afterInteractive"
       />
-      <div className="flex justify-evenly items-evenly p-1 md:h-[500px] sm:h-[600]">
-        <div className="w-1/3 ">
-          <div className="h-1/5">
-            <h2 className="text-3xl text-green-700 font-bold font-sans-serif text-center">
-              At Mole Busters, We Are the Experts for:
-            </h2>
-          </div>
 
-          <div className="h-4/5 flex flex-col justify-evenly">
-            <div className="flex items-center m-1 justify-evenly">
+      <div className="flex h-[500px]">
+        <div className="w-1/3 h-full">
+          <h2 className="md:text-3xl sm:text-lg sm:text-black-200 text-green-700 font-bold font-sans-serif text-center">
+            At Mole Busters, We Are the Experts for:
+          </h2>
+
+          <div className="h-4/5 flex flex-col justify-evenly ">
+            <div className="flex sm:flex-col md:flex-col lg:flex-row justify-center items-center">
               <Image
                 src={mole}
                 alt="Mole Image"
                 width={175}
                 style={{ objectFit: "cover", borderRadius: 8 }}
               />
-              <div className="pl-3">
-                <p className="font-bold font-sans-serif text-2xl">Moles</p>
+              <div className="lg:pl-3">
+                <p className="font-bold self-center font-sans-serif lg:text-2xl sm:text-lg">
+                  Moles
+                </p>
               </div>
             </div>
-            <div className="flex items-center m-1 justify-evenly">
+            <div className="flex sm:flex-col md:flex-col lg:flex-row justify-center items-center">
               <Image
                 src={vole}
                 alt="Vole Image"
@@ -44,10 +52,12 @@ const HomePage = ({ data }) => {
                 style={{ objectFit: "cover", borderRadius: 8 }}
               />
               <div className="pl-3">
-                <p className="font-bold font-sans-serif text-2xl">Voles</p>
+                <p className="font-bold font-sans-serif lg:text-2xl sm:text-lg">
+                  Voles
+                </p>
               </div>
             </div>
-            <div className="flex items-center m-1 justify-evenly">
+            <div className="flex sm:flex-col md:flex-col lg:flex-row justify-center items-center">
               <Image
                 src={gopher}
                 alt="Gopher Image"
@@ -55,29 +65,29 @@ const HomePage = ({ data }) => {
                 style={{ objectFit: "cover", borderRadius: 8 }}
               />
               <div className="">
-                <p className="font-bold font-sans-serif text-2xl">Gophers</p>
+                <p className="font-bold font-sans-serif lg:text-2xl sm:text-lg">
+                  Gophers
+                </p>
               </div>
             </div>
           </div>
         </div>
 
         <div className=" justify-items-center bg-green-700 rounded-lg p-1 md:w-1/3 flex flex-col flex-grow-2 bg-green-700">
-          <div className="h-[40px] mb-2">
-            <h2 className="text-3xl text-white font-bold font-sans-serif text-center">
-              Schedule a Free Inspection Today!
-            </h2>
-          </div>
+          <h2 className="md:text-3xl sm:text-xl text-white font-bold font-sans-serif text-center">
+            Schedule a Free Inspection Today!
+          </h2>
           <KeapForm />
         </div>
 
         <div className="justify-center justify-items-center p-1 w-1/3">
           <div className="h[60px]">
-            <h2 className="text-3xl text-green-700 font-bold font-sans-serif text-center">
+            <h2 className="md:text-3xl sm:text-xl text-green-700 font-bold font-sans-serif text-center">
               Housecall Pro Reviews
             </h2>
           </div>
 
-          <div className="h-full">
+          <div className="h-full w-full">
             <iframe
               src="https://client.housecallpro.com/reviews/Mole-Busters-SERVICE-TICKET-ONLY/52e8b8de-3869-4d9a-a1f3-a187affddeb7/"
               width="100%"

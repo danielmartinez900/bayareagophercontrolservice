@@ -10,8 +10,10 @@ const Page = () => {
     <div className="p-2 mx-20 h-auto">
       <Head>
         <title>Moles vs Voles: What's the Difference?</title>
-        <meta name="blog" content="Moles vs Voles: What's the Difference?" />
+        <meta name="description" content="Moles vs Voles: What's the Difference?" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
+      <link rel="icon" href="icon.jpg" type="image/jpg" sizes="16x16" />
 
       <div className="mb-5">
         <h className="text-green-700 text-3xl font-bold">

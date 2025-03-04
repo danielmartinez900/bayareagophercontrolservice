@@ -10,10 +10,12 @@ const Page = () => {
       <Head>
         <title>How Climate Affects Moles and Gophers in the Bay Area</title>
         <meta
-          name="blog"
+          name="description"
           content="How Climate Affects Moles and Gophers in the Bay Area"
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
+      <link rel="icon" href="icon.jpg" type="image/jpg" sizes="16x16" />
 
       <div>
         <h1 className="text-2xl font-bold text-green-700 my-2 h-[50] content-center">

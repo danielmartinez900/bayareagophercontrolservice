@@ -8,20 +8,18 @@ const Page = () => {
   return (
     <div className="p-2 mx-20 h-auto">
       <Head>
-        <title>About Mole Busters: Your Bay Area Gopher Experts</title>
+        <title>
+          About Mole Busters: The Mole, Vole, and Gopher Specialists
+        </title>
         <meta
-          name="about-us"
-          content="About Mole Busters: Your Bay Area Gopher Experts"
+          name="description"
+          content="About Mole Busters: The Mole, Vole, and Gopher Specialists"
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
+      <link rel="icon" href="icon.jpg" type="image/jpg" sizes="16x16" />
 
       <div>
-        {/* <h1 className="text-2xl font-bold text-green-700 my-2 h-[50] content-center">
-          About Mole Busters: Your Bay Area Gopher Experts
-        </h1>
-        <h1 className="text-xl font-medium text-green-700 my-2 h-[50] content-center">
-          Dedicated to Exceptional Gopher Control
-        </h1> */}
         <div className="flex justify-center">
           <Image
             src={image}
@@ -65,8 +63,10 @@ const Page = () => {
         <p>We adhere to stringent ethcial standards in all our operations.</p>
 
         <p class="font-medium text-l text-green-700">Customer Satisfaction</p>
-        <p>Your
-        satisfaction is our ultimate goal. We won't stop until your property</p>
+        <p>
+          Your satisfaction is our ultimate goal. We won't stop until your
+          property
+        </p>
       </div>
 
       <p className="font-medium">
