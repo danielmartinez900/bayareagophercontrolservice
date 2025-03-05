@@ -18,57 +18,51 @@ const HomePage = ({ data }) => {
         <meta name="description" content="Mole Busters" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <link rel="icon" href="icon.jpg" type="image/jpg" sizes="16x16" />
+      <link rel="icon" href="icon.ico" type="image/ico" sizes="16x16" />
       <Script
         src="https://molebusters.infusionsoft.app/app/webTracking/getTrackingCode"
         strategy="afterInteractive"
       />
 
       <div className="flex h-[500px]">
-        <div className="w-1/3 h-full">
+        <div className="flex flex-col w-1/3">
           <h2 className="md:text-3xl sm:text-lg sm:text-black-200 text-green-700 font-bold font-sans-serif text-center">
             At Mole Busters, We Are the Experts for:
           </h2>
 
-          <div className="h-4/5 flex flex-col justify-evenly ">
-            <div className="flex sm:flex-col md:flex-col lg:flex-row justify-center items-center">
+          <div className="flex flex-col justify-evenly h-full">
+            <div className="flex flex-col md:flex-row items-center justify-around px-2">
               <Image
                 src={mole}
                 alt="Mole Image"
                 width={175}
                 style={{ objectFit: "cover", borderRadius: 8 }}
               />
-              <div className="lg:pl-3">
-                <p className="font-bold self-center font-sans-serif lg:text-2xl sm:text-lg">
-                  Moles
-                </p>
-              </div>
+              <p className="font-bold self-center font-sans-serif lg:text-2xl sm:text-lg">
+                Moles
+              </p>
             </div>
-            <div className="flex sm:flex-col md:flex-col lg:flex-row justify-center items-center">
+            <div className="flex flex-col md:flex-row items-center justify-around px-2">
               <Image
                 src={vole}
                 alt="Vole Image"
                 width={175}
                 style={{ objectFit: "cover", borderRadius: 8 }}
               />
-              <div className="pl-3">
-                <p className="font-bold font-sans-serif lg:text-2xl sm:text-lg">
-                  Voles
-                </p>
-              </div>
+              <p className="font-bold font-sans-serif lg:text-2xl sm:text-lg">
+                Voles
+              </p>
             </div>
-            <div className="flex sm:flex-col md:flex-col lg:flex-row justify-center items-center">
-              <Image
-                src={gopher}
-                alt="Gopher Image"
-                width={175}
-                style={{ objectFit: "cover", borderRadius: 8 }}
-              />
-              <div className="">
+            <div className="flex flex-col md:flex-row items-center justify-around px-2">
+                <Image
+                  src={gopher}
+                  alt="Gopher Image"
+                  width={175}
+                  style={{ objectFit: "cover", borderRadius: 8 }}
+                />
                 <p className="font-bold font-sans-serif lg:text-2xl sm:text-lg">
                   Gophers
                 </p>
-              </div>
             </div>
           </div>
         </div>
@@ -80,29 +74,27 @@ const HomePage = ({ data }) => {
           <KeapForm />
         </div>
 
-        <div className="justify-center justify-items-center p-1 w-1/3">
-          <div className="h[60px]">
-            <h2 className="md:text-3xl sm:text-xl text-green-700 font-bold font-sans-serif text-center">
-              Housecall Pro Reviews
-            </h2>
-          </div>
+        <div className="h-full justify-end px-1 w-1/3">
+          <h2 className="md:text-3xl sm:text-xl text-green-700 font-bold font-sans-serif text-center">
+            Housecall Pro Reviews
+          </h2>
 
-          <div className="h-full w-full">
+          <div className="w-full">
             <iframe
               src="https://client.housecallpro.com/reviews/Mole-Busters-SERVICE-TICKET-ONLY/52e8b8de-3869-4d9a-a1f3-a187affddeb7/"
               width="100%"
-              height="450"
+              height="444"
             />
           </div>
         </div>
       </div>
 
       <div className="">
-        <h2 className="text-4xl text-green-700 font-bold text-center font-sans-serif m-3">
+        <h2 className="text-xl md:text-4xl text-green-700 font-bold text-center font-sans-serif my-2 mx-1">
           The Bay Area's Trusted Source for Mole, Vole, and Gopher control.
         </h2>
-        <div className="mx-10 gap-8">
-          <p className="text-lg font-medium">
+        <div className="mx-5 gap-8">
+          <p className="text-md font-medium">
             At Mole Busters, we specialize in providing top-notch gopher control
             services to homes and businesses throughout the Bay Area. Our team
             of experienced professionals uses humane and effective methods to
@@ -110,7 +102,7 @@ const HomePage = ({ data }) => {
           </p>
 
           <div className="my-5 space-y-1">
-            <p className="font-bold text-green-700 text-xl my-1">
+            <p className="font-bold text-green-700 text-xl md:text-3xl my-1">
               Key benefits
             </p>
             <p className="font-bold text-l text-green-700">Humane Solutions</p>

@@ -11,14 +11,15 @@ const Page = () => {
   return (
     <div className="flex-row flex-grow justify-evenly justify-items-end">
       <Head>
-        <title>Mole Busters blog</title>
+        <title>Mole Busters Blog</title>
         <meta name="description" content="Mole Busters Blog" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <link rel="icon" href="icon.jpg" type="image/jpg" sizes="16x16" />
+      <link rel="icon" href="icon.ico" type="image/ico" sizes="16x16" />
       <a href="/blogs/Top-5-Signs-You-Have-a-Gopher-Problem-in-the-Bay-Area">
         <BlogCard
           image={gopherImage}
+          imageAlt={'Image of a gopher'}
           title="Top 5 Signs You Have a Gopher Problem in the Bay Area"
           description="Gophers can cause a lot of problems to your yard. Here are 5 simple
           ways you can identity a gopher problem early on.  "
@@ -28,6 +29,7 @@ const Page = () => {
       <a href="/blogs/Moles-Vs-Voles-Whats-The-Differnce">
         <BlogCard
           image={voleImage}
+          imageAlt={'Image of a vole'}
           title="Moles vs Voles: What's the Difference?"
           description="Moles and voles are often confused due to their similar burrowing
           habits, but they have distinct differences in appearance, diet, and
@@ -38,6 +40,7 @@ const Page = () => {
       <a href="/blogs/How-Climate-Affects-Moles-and-Gophers-in-the-Bay-Area">
         <BlogCard
           image={clouds}
+          imageAlt={'Image of clouds'}
           title="How Climate Affects Moles and Gophers in the Bay Area"
           description="The Bay Area’s unique climate plays a significant role in the behavior and activity of moles and gophers. Understanding these effects can help you better manage and prevent these pests from invading your yard."
           date="02/20/2025"
