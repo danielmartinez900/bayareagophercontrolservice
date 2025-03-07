@@ -21,11 +21,6 @@ const KeapForm = () => {
           type="hidden"
           value="1.70.0.781449"
         />
-        {/* <div>
-          <div>
-            <div className="title text-center font-bold text-xl">Person Information</div>
-          </div>
-        </div> */}
         <div className="infusion-field flex justify-between">
           <label htmlFor="inf_field_FirstName" className="font-bold text-lg">
             First Name*

@@ -9,6 +9,7 @@ import vole from "../../../public/vole.jpg";
 
 import List_of_cities from "../Cities/List-of-Cities-Component";
 import KeapForm from "./KeapForm";
+import NewKeapForm from "./NewKeapForm";
 
 const HomePage = ({ data }) => {
   return (
@@ -71,7 +72,7 @@ const HomePage = ({ data }) => {
           <h2 className="md:text-3xl sm:text-xl text-white font-bold font-sans-serif text-center">
             Schedule a Free Inspection Today!
           </h2>
-          <KeapForm />
+          <NewKeapForm />
         </div>
 
         <div className="h-full justify-end px-1 w-1/3">
