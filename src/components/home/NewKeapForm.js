@@ -194,14 +194,11 @@ function NewKeapForm() {
             class="infusion-recaptcha"
             id="recaptcha_047203016e92829fa4f4088317b821ff"
             type="submit"
-            className="font-bold space-x-1 text-lg text-white"
+            className="font-bold space-x-1 text-lg text-white w-full bg-red-600 rounded-md"
           >
             Submit
           </button>
         </div>
-        {/* <div>
-          <div>&nbsp;</div>
-        </div> */}
       </form>
 
       <script

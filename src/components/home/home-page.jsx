@@ -15,7 +15,7 @@ const HomePage = ({ data }) => {
     <div className="mt-2">
       <Head>
         <title>Mole Busters</title>
-        <meta name="description" content="Mole Busters" />
+        <meta name="description" content="Mole Busters Bay Area" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <link rel="icon" href="icon.ico" type="image/ico" sizes="16x16" />
