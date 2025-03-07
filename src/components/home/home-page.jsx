@@ -8,7 +8,6 @@ import mole from "../../../public/mole.jpg";
 import vole from "../../../public/vole.jpg";
 
 import List_of_cities from "../Cities/List-of-Cities-Component";
-import KeapForm from "./KeapForm";
 import NewKeapForm from "./NewKeapForm";
 
 const HomePage = ({ data }) => {
