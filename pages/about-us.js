@@ -6,7 +6,7 @@ import image from "../public/mole-busters-banner.jpg";
 
 const Page = () => {
   return (
-    <div className="p-2 mx-20 h-auto">
+    <div className="py-1 mx-5">
       <Head>
         <title>
           About Mole Busters: The Mole, Vole, and Gopher Specialists
@@ -17,17 +17,19 @@ const Page = () => {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <link rel="icon" href="icon.jpg" type="image/jpg" sizes="16x16" />
+      <link rel="icon" href="icon.ico" type="image/ico" sizes="16x16" />
 
       <div>
         <div className="flex justify-center">
           <Image
             src={image}
+            alt='Mole Busters business card'
+            // layout="responsive"
             width={"20%"}
             style={{ objectFit: "cover", borderRadius: 8 }}
           />
         </div>
-        <p className="text-2xl font-bold text-green-800">
+        <p className="text-lg md:text-2xl font-semibold text-green-800">
           At Mole Busters, we are passionate about providing exceptional gopher
           control services accross the Bay Area. Our mission is to offer
           hummane, eco-friendly, and effective solutions to our clients.
@@ -56,13 +58,13 @@ const Page = () => {
       <div className="my-5 space-y-1">
         <p className="font-bold text-green-700 text-xl my-1">Our Promise</p>
         <p>With Mole Busters, you can expect:</p>
-        <p class="font-medium text-l text-green-700">Reliablity</p>
+        <p class="text-green-700 text-lg font-semibold">Reliablity</p>
         <p>We stick to our schedules and deliver on our promises.</p>
 
-        <p class="font-medium text-l text-green-700">Ethical Practices</p>
+        <p class="text-green-700 text-lg font-semibold">Ethical Practices</p>
         <p>We adhere to stringent ethcial standards in all our operations.</p>
 
-        <p class="font-medium text-l text-green-700">Customer Satisfaction</p>
+        <p class="text-green-700 text-lg font-semibold">Customer Satisfaction</p>
         <p>
           Your satisfaction is our ultimate goal. We won't stop until your
           property

@@ -1,4 +1,3 @@
-import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -6,7 +5,7 @@ import image from "../../public/gopher.jpg";
 
 const Page = () => {
   return (
-    <div className="p-2 mx-20 h-auto">
+    <div className="p-2 mx-5 h-auto">
       <Head>
         <title>Top 5 Signs You Have a Gopher Problem in the Bay Area</title>
         <meta
@@ -15,10 +14,10 @@ const Page = () => {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <link rel="icon" href="icon.jpg" type="image/jpg" sizes="16x16" />
+      <link rel="icon" href="/icon.ico" type="image/ico" sizes="16x16" />
 
       <div>
-        <h1 className="text-2xl font-bold text-green-700 my-2 h-[50] content-center">
+        <h1 className="text-2xl font-bold text-green-700 my-1 content-center">
           Top 5 Signs You Have a Gopher Problem in the Bay Area
         </h1>
         <div className="max-h-[300px] flex">

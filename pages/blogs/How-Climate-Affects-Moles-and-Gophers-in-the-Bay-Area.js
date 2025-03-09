@@ -1,4 +1,3 @@
-import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -6,7 +5,7 @@ import image from "../../public/clouds.jpeg";
 
 const Page = () => {
   return (
-    <div className="p-2 mx-20 h-auto">
+    <div className="p-2 mx-5 h-auto">
       <Head>
         <title>How Climate Affects Moles and Gophers in the Bay Area</title>
         <meta
@@ -15,16 +14,18 @@ const Page = () => {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
-      <link rel="icon" href="icon.jpg" type="image/jpg" sizes="16x16" />
+      <link rel="icon" href="/icon.ico" type="image/ico" sizes="16x16" />
 
       <div>
-        <h1 className="text-2xl font-bold text-green-700 my-2 h-[50] content-center">
+        <h1 className="text-2xl font-bold text-green-700 my-2 content-center">
           How Climate Affects Moles and Gophers in the Bay Area
         </h1>
         <div className="max-h-[300px] flex">
           <Image
             src={image}
+            alt='Image of clouds'
             width={"20%"}
+            // layout="responsive"
             style={{ objectFit: "cover", borderRadius: 8 }}
           />
         </div>
