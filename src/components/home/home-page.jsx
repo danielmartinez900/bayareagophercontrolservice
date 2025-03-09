@@ -8,14 +8,14 @@ import mole from "../../../public/mole.jpg";
 import vole from "../../../public/vole.jpg";
 
 import List_of_cities from "../Cities/List-of-Cities-Component";
-import KeapForm from "./KeapForm";
+import NewKeapForm from "./NewKeapForm";
 
 const HomePage = ({ data }) => {
   return (
     <div className="mt-2">
       <Head>
         <title>Mole Busters</title>
-        <meta name="description" content="Mole Busters" />
+        <meta name="description" content="Mole Busters Bay Area" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <link rel="icon" href="icon.ico" type="image/ico" sizes="16x16" />
@@ -71,7 +71,7 @@ const HomePage = ({ data }) => {
           <h2 className="md:text-3xl sm:text-xl text-white font-bold font-sans-serif text-center">
             Schedule a Free Inspection Today!
           </h2>
-          <KeapForm />
+          <NewKeapForm />
         </div>
 
         <div className="h-full justify-end px-1 w-1/3">
