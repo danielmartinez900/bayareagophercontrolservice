@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 
+import CallToAction from "@/src/components/CallToActionInputs/CallToAction";
 import image from "../../public/clouds.jpeg";
 
 const Page = () => {
@@ -119,16 +120,12 @@ const Page = () => {
           resources to sustain them during less favorable conditions.
         </p>
       </div>
-
-      <p className="font-medium">
-        The Bay Area’s temperate climate allows moles and gophers to remain
+      <CallToAction title="The Bay Area’s temperate climate allows moles and gophers to remain
         active throughout the year, with peak activity during the spring and
         fall. By understanding how climate affects these pests, you can better
         anticipate their behavior and implement effective prevention strategies.
-        Keeping your yard well-maintained and monitoring moisture levels can
-        help reduce the likelihood of mole and gopher invasions. Happy
-        gardening!
-      </p>
+        Mole Busters understands these climate changes and keeps your yard well-maintained to
+        help reduce the likelihood of mole and gopher invasions!"/>
     </div>
   );
 };

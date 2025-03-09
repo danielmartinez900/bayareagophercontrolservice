@@ -4,9 +4,9 @@ function NewKeapForm() {
   return (
     <div className="flex flex-col m-1 h-full overflow-scroll justify-around">
       <form
-        accept-charset="UTF-8"
+        acceptCharset="UTF-8"
         action="https://molebusters.infusionsoft.com/app/form/process/047203016e92829fa4f4088317b821ff"
-        className="infusion-form h-full justify-between flex flex-col justify-evenly"
+        className="h-full justify-between flex flex-col justify-evenly"
         id="inf_form_047203016e92829fa4f4088317b821ff"
         method="POST"
       >
@@ -23,9 +23,9 @@ function NewKeapForm() {
         />
 
         <div className="flex flex-col justify-evenly">
-          <div class="infusion-field" className="flex justify-between my-1">
+          <div  className="flex justify-between my-1">
             <label
-              for="inf_field_FirstName"
+              htmlFor="inf_field_FirstName"
               className="font-bold text-md lg:text-lg text-white"
             >
               First Name*
@@ -39,9 +39,9 @@ function NewKeapForm() {
             />
           </div>
 
-          <div class="infusion-field" className="flex justify-between my-1">
+          <div className="flex justify-between my-1">
             <label
-              for="inf_field_LastName"
+              htmlFor="inf_field_LastName"
               className="font-bold text-md lg:text-lg  text-white"
             >
               Last Name*
@@ -54,9 +54,9 @@ function NewKeapForm() {
               className="rounded-sm p-1 lg:p2"
             />
           </div>
-          <div class="infusion-field" className="flex justify-between my-1">
+          <div className="flex justify-between my-1">
             <label
-              for="inf_field_Email"
+              htmlFor="inf_field_Email"
               className="font-bold text-md lg:text-lg  text-white"
             >
               Email*
@@ -69,9 +69,9 @@ function NewKeapForm() {
               className="rounded-sm p-1 lg:p2"
             />
           </div>
-          <div class="infusion-field" className="flex justify-between my-1">
+          <div className="flex justify-between my-1">
             <label
-              for="inf_field_Phone1"
+              htmlFor="inf_field_Phone1"
               className="font-bold text-md lg:text-lg  text-white"
             >
               Phone*
@@ -84,9 +84,9 @@ function NewKeapForm() {
               className="rounded-sm p-1 lg:p2"
             />
           </div>
-          <div class="infusion-field" className="flex justify-between my-1">
+          <div className="flex justify-between my-1">
             <label
-              for="inf_custom_Address"
+              htmlFor="inf_custom_Address"
               className="font-bold text-md lg:text-lg text-white"
             >
               Address*
@@ -99,9 +99,9 @@ function NewKeapForm() {
               className="rounded-sm p-1 lg:p2"
             />
           </div>
-          <div class="infusion-field" className="flex justify-between my-1">
+          <div className="flex justify-between my-1">
             <label
-              for="inf_custom_City1"
+              htmlFor="inf_custom_City1"
               className="font-bold lg:text-lg  text-white"
             >
               City*
@@ -118,17 +118,17 @@ function NewKeapForm() {
 
         <div className="">
           <div className="justify-center">
-            <div class="infusion-field">
+            <div>
               <div className="text-center">
                 <label
-                  for="inf_option_Radio"
+                  htmlFor="inf_option_Radio"
                   className="text-lg text-bold text-white font-bold"
                 >
                   I'm having issues with:
                 </label>
               </div>
               <div className="infusion-radio flex flex-col">
-                <span class="infusion-option">
+                <span >
                   <input
                     id="inf_option_Radio_1427"
                     name="inf_option_Radio"
@@ -136,13 +136,13 @@ function NewKeapForm() {
                     value="1427"
                   />
                   <label
-                    for="inf_option_Radio_1427"
+                    htmlFor="inf_option_Radio_1427"
                     className="text-white pl-1 md:pl-2 text-semibold"
                   >
                     Moles
                   </label>
                 </span>
-                <span class="infusion-option">
+                <span >
                   <input
                     id="inf_option_Radio_1429"
                     name="inf_option_Radio"
@@ -150,13 +150,13 @@ function NewKeapForm() {
                     value="1429"
                   />
                   <label
-                    for="inf_option_Radio_1429"
+                    htmlFor="inf_option_Radio_1429"
                     className="text-white pl-1 md:pl-2 text-semibold"
                   >
                     Voles
                   </label>
                 </span>
-                <span class="infusion-option">
+                <span >
                   <input
                     id="inf_option_Radio_1435"
                     name="inf_option_Radio"
@@ -164,13 +164,13 @@ function NewKeapForm() {
                     value="1435"
                   />
                   <label
-                    for="inf_option_Radio_1435"
+                    htmlFor="inf_option_Radio_1435"
                     className="text-white pl-1 md:pl-2 text-semibold"
                   >
                     Gophers
                   </label>
                 </span>
-                <span class="infusion-option">
+                <span>
                   <input
                     id="inf_option_Radio_1437"
                     name="inf_option_Radio"
@@ -178,7 +178,7 @@ function NewKeapForm() {
                     value="1437"
                   />
                   <label
-                    for="inf_option_Radio_1437"
+                    htmlFor="inf_option_Radio_1437"
                     className="text-white pl-1 md:pl-2 text-semibold"
                   >
                     I'm not sure
@@ -189,12 +189,11 @@ function NewKeapForm() {
           </div>
         </div>
 
-        <div class="infusion-submit text-center flex justify-center">
+        <div className=" text-center flex justify-center">
           <button
-            class="infusion-recaptcha"
+            className="infusion-recaptcha font-bold space-x-1 text-lg text-white w-full bg-red-600 rounded-md"
             id="recaptcha_047203016e92829fa4f4088317b821ff"
             type="submit"
-            className="font-bold space-x-1 text-lg text-white w-full bg-red-600 rounded-md"
           >
             Submit
           </button>
