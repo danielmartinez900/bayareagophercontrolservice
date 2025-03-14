@@ -12,7 +12,7 @@ export const Header = () => {
           South Bay: (408) 326-9992
         </p>
         <p className="text-white text-sm md:text-lg text-center">
-          Penninsula: (925) 273-3003
+          Penninsula: (650) 587-3005
         </p>
         <p className="text-white text-sm md:text-lg text-center">
           East Bay: (925) 273-3003
@@ -37,7 +37,7 @@ export const Header = () => {
         </div>
         <div>
           <p className="text-sm md:text-lg text-center">
-            1-866-960-moles(6653)
+            1-866-960-Moles(6653)
           </p>
         </div>
       </div>

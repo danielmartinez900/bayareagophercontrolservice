@@ -14,8 +14,8 @@ const HomePage = ({ data }) => {
   return (
     <div className="mt-2">
       <Head>
-        <title>Mole Busters</title>
-        <meta name="description" content="Mole Busters Bay Area" />
+        <title>Bay Area Gopher Control</title>
+        <meta name="description" content="Bay Area Gopher Control" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <link rel="icon" href="icon.ico" type="image/ico" sizes="16x16" />
@@ -24,13 +24,13 @@ const HomePage = ({ data }) => {
         strategy="afterInteractive"
       />
 
-      <div className="flex h-[500px]">
-        <div className="flex flex-col w-1/3">
-          <h2 className="md:text-3xl sm:text-lg sm:text-black-200 text-green-700 font-bold font-sans-serif text-center">
+      <div className="flex flex-col md:flex-row mx-2 md:mx-1">
+        <div className="flex flex-col md:w-1/3 order-2 md:order-1">
+          <h2 className="text-2xl md:text-3xl sm:text-lg sm:text-black-200 text-green-700 font-bold font-sans-serif text-center">
             At Mole Busters, We Are the Experts for:
           </h2>
 
-          <div className="flex flex-col justify-evenly h-full">
+          <div className="flex md:flex-col justify-evenly h-full">
             <div className="flex flex-col md:flex-row items-center justify-around px-2">
               <Image
                 src={mole}
@@ -67,15 +67,15 @@ const HomePage = ({ data }) => {
           </div>
         </div>
 
-        <div className=" justify-items-center bg-green-700 rounded-lg p-1 md:w-1/3 flex flex-col flex-grow-2 bg-green-700">
-          <h2 className="md:text-3xl sm:text-xl text-white font-bold font-sans-serif text-center">
+        <div className="order-1 md:order-2 justify-items-center bg-green-700 rounded-lg p-1 md:w-1/3 flex flex-col flex-grow-2 bg-green-700">
+          <h2 className="text-2xl md:text-3xl text-white font-bold font-sans-serif text-center">
             Schedule a Free Inspection Today!
           </h2>
           <NewKeapForm />
         </div>
 
-        <div className="h-full justify-end px-1 w-1/3">
-          <h2 className="md:text-3xl sm:text-xl text-green-700 font-bold font-sans-serif text-center">
+        <div className="h-full justify-end px-1 md:w-1/3 order-3 md:mx-1 bg-gray-100 md:bg-white">
+          <h2 className="text-2xl md:text-3xl text-green-700 font-bold font-sans-serif text-center">
             Housecall Pro Reviews
           </h2>
 
