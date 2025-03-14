@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import CallToAction from "@/src/components/CallToActionInputs/CallToAction";
 
 import image from "../../public/gopher.jpg";
 
@@ -97,12 +98,12 @@ const Page = () => {
         </p>
       </div>
 
-      <p className="font-medium">
-        If you notice any of these signs on your property, it's time to take
+      <CallToAction
+        title="If you notice any of these signs on your property, it's time to take
         action. Gopher infestations can quickly escalate, causing more damage
         over time. At Mole Busters, we provide humane and effective gopher
-        control services to tackle your gopher problems in the Bay Area!
-      </p>
+        control services to tackle your gopher problems in the Bay Area! "
+      />
     </div>
   );
 };

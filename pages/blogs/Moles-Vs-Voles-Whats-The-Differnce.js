@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import CallToAction from "@/src/components/CallToActionInputs/CallToAction";
 
 import moleImage from "../../public/mole.jpg";
 import voleImage from "../../public/vole.jpg";
@@ -141,13 +142,10 @@ const Page = () => {
         </div>
       </div>
 
-      <p className="font-medium">
-        Understanding these differences can help you identify which pest is
+      <CallToAction title="Understanding these differences can help you identify which pest is
         causing problems in your yard and take appropriate measures to manage
         them. Schedule your free inspection with a Mole Busters technician to
-        get to the bottom of your mole, vole, or gopher problems! (Call To
-        Action component below)
-      </p>
+        get to the bottom of your mole, vole, or gopher problems!"/>
     </div>
   );
 };
