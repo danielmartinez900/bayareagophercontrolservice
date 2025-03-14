@@ -25,7 +25,7 @@ const HomePage = ({ data }) => {
       />
 
       <div className="flex flex-col md:flex-row mx-2 md:mx-1">
-        <div className="flex flex-col md:w-1/3 order-2 md:order-1">
+        <div className="flex flex-col md:w-1/3">
           <h2 className="text-2xl md:text-3xl sm:text-lg sm:text-black-200 text-green-700 font-bold font-sans-serif text-center">
             At Mole Busters, We Are the Experts for:
           </h2>
@@ -67,14 +67,14 @@ const HomePage = ({ data }) => {
           </div>
         </div>
 
-        <div className="order-1 md:order-2 justify-items-center bg-green-700 rounded-lg p-1 md:w-1/3 flex flex-col flex-grow-2 bg-green-700">
+        <div className=" justify-items-center bg-green-700 rounded-lg p-1 md:w-1/3 flex flex-col flex-grow-2 bg-green-700">
           <h2 className="text-2xl md:text-3xl text-white font-bold font-sans-serif text-center">
             Schedule a Free Inspection Today!
           </h2>
           <NewKeapForm />
         </div>
 
-        <div className="h-full justify-end px-1 md:w-1/3 order-3 md:mx-1 bg-gray-100 md:bg-white">
+        <div className="h-full justify-end px-1 md:w-1/3  md:mx-1 bg-gray-100 md:bg-white">
           <h2 className="text-2xl md:text-3xl text-green-700 font-bold font-sans-serif text-center">
             Housecall Pro Reviews
           </h2>

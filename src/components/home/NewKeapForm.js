@@ -23,7 +23,7 @@ function NewKeapForm() {
         />
 
         <div className="flex flex-col justify-evenly">
-          <div  className="flex justify-between my-1">
+          <div  className="flex flex-col md:flex-row justify-between my-1">
             <label
               htmlFor="inf_field_FirstName"
               className="font-bold text-md lg:text-lg text-white"
@@ -39,7 +39,7 @@ function NewKeapForm() {
             />
           </div>
 
-          <div className="flex justify-between my-1">
+          <div className="flex flex-col md:flex-row justify-between my-1">
             <label
               htmlFor="inf_field_LastName"
               className="font-bold text-md lg:text-lg  text-white"
@@ -54,7 +54,7 @@ function NewKeapForm() {
               className="rounded-sm p-1 lg:p2"
             />
           </div>
-          <div className="flex justify-between my-1">
+          <div className="flex flex-col md:flex-row justify-between my-1">
             <label
               htmlFor="inf_field_Email"
               className="font-bold text-md lg:text-lg  text-white"
@@ -69,7 +69,7 @@ function NewKeapForm() {
               className="rounded-sm p-1 lg:p2"
             />
           </div>
-          <div className="flex justify-between my-1">
+          <div className="flex flex-col md:flex-row justify-between my-1">
             <label
               htmlFor="inf_field_Phone1"
               className="font-bold text-md lg:text-lg  text-white"
@@ -84,7 +84,7 @@ function NewKeapForm() {
               className="rounded-sm p-1 lg:p2"
             />
           </div>
-          <div className="flex justify-between my-1">
+          <div className="flex flex-col md:flex-row justify-between my-1">
             <label
               htmlFor="inf_custom_Address"
               className="font-bold text-md lg:text-lg text-white"
@@ -99,7 +99,7 @@ function NewKeapForm() {
               className="rounded-sm p-1 lg:p2"
             />
           </div>
-          <div className="flex justify-between my-1">
+          <div className="flex flex-col md:flex-row justify-between my-1">
             <label
               htmlFor="inf_custom_City1"
               className="font-bold lg:text-lg  text-white"
@@ -116,7 +116,7 @@ function NewKeapForm() {
           </div>
         </div>
 
-        <div className="">
+        <div className="my-2">
           <div className="justify-center">
             <div>
               <div className="text-center">
