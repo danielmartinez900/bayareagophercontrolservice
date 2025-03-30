@@ -19,7 +19,7 @@ const Page = () => {
       </Head>
       <link rel="icon" href="icon.ico" type="image/ico" sizes="16x16" />
 
-      <div>
+      <section>
         <div className="flex justify-center">
           <Image
             src={image}
@@ -29,47 +29,47 @@ const Page = () => {
             style={{ objectFit: "cover", borderRadius: 8 }}
           />
         </div>
-        <p className="text-lg md:text-2xl font-semibold text-green-800">
+        <h className="text-lg md:text-2xl font-semibold text-green-800">
           At Mole Busters, we are passionate about providing exceptional gopher
           control services accross the Bay Area. Our mission is to offer
           hummane, eco-friendly, and effective solutions to our clients.
-        </p>
-      </div>
+        </h>
+      </section>
 
-      <div className="my-5">
-        <p className="font-bold text-green-700 text-xl my-1">Our Story</p>
+      <section className="my-5">
+        <h1 className="font-bold text-green-700 text-xl my-1">Our Story</h1>
         <p>
           Mole Busters was founded with a commitment to solving gopher problems
           in the most caring and effective way possible. We understand the
           challenges gophers can pose to residental and commercial properties,
           and we are here to tackle those issues head-on.
         </p>
-      </div>
+      </section>
 
-      <div className="my-5">
-        <p className="font-bold text-green-700 text-xl my-1">Our Team</p>
+      <section className="my-5">
+        <h1 className="font-bold text-green-700 text-xl my-1">Our Team</h1>
         <p>
           Our team of trained and certified professionals is dedicated to
           providing top-notch services. We continually invest in the latest
           training and tools to ensure the best results for our clients.
         </p>
-      </div>
+      </section>
 
-      <div className="my-5 space-y-1">
-        <p className="font-bold text-green-700 text-xl my-1">Our Promise</p>
+      <section className="my-5 space-y-1">
+        <h1 className="font-bold text-green-700 text-xl my-1">Our Promise</h1>
         <p>With Mole Busters, you can expect:</p>
-        <p class="text-green-700 text-lg font-semibold">Reliablity</p>
+        <h2 class="text-green-700 text-lg font-semibold">Reliablity</h2>
         <p>We stick to our schedules and deliver on our promises.</p>
 
-        <p class="text-green-700 text-lg font-semibold">Ethical Practices</p>
+        <h2 class="text-green-700 text-lg font-semibold">Ethical Practices</h2>
         <p>We adhere to stringent ethcial standards in all our operations.</p>
 
-        <p class="text-green-700 text-lg font-semibold">Customer Satisfaction</p>
+        <h2 class="text-green-700 text-lg font-semibold">Customer Satisfaction</h2>
         <p>
           Your satisfaction is our ultimate goal. We won't stop until your
           property
         </p>
-      </div>
+      </section>
 
       <p className="font-medium">
         Learn more about our services or get in touch with us today. Let's work

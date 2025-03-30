@@ -24,11 +24,11 @@ const HomePage = ({ data }) => {
         strategy="afterInteractive"
       />
 
-      <div className="flex flex-col md:flex-row mx-2 md:mx-1">
+      <section className="flex flex-col md:flex-row mx-2 md:mx-1">
         <div className="flex flex-col md:w-1/3">
-          <h2 className="text-2xl md:text-3xl sm:text-lg sm:text-black-200 text-green-700 font-bold font-sans-serif text-center">
+          <h className="text-2xl md:text-3xl sm:text-lg sm:text-black-200 text-green-700 font-bold font-sans-serif text-center">
             At Mole Busters, We Are the Experts for:
-          </h2>
+          </h>
 
           <div className="flex md:flex-col justify-evenly h-full">
             <div className="flex flex-col md:flex-row items-center justify-around px-2">
@@ -38,9 +38,9 @@ const HomePage = ({ data }) => {
                 width={175}
                 style={{ objectFit: "cover", borderRadius: 8 }}
               />
-              <p className="font-bold self-center font-sans-serif lg:text-2xl sm:text-lg">
+              <h1 className="font-bold self-center font-sans-serif lg:text-2xl sm:text-lg">
                 Moles
-              </p>
+              </h1>
             </div>
             <div className="flex flex-col md:flex-row items-center justify-around px-2">
               <Image
@@ -49,9 +49,9 @@ const HomePage = ({ data }) => {
                 width={175}
                 style={{ objectFit: "cover", borderRadius: 8 }}
               />
-              <p className="font-bold font-sans-serif lg:text-2xl sm:text-lg">
+              <h1 className="font-bold font-sans-serif lg:text-2xl sm:text-lg">
                 Voles
-              </p>
+              </h1>
             </div>
             <div className="flex flex-col md:flex-row items-center justify-around px-2">
                 <Image
@@ -60,24 +60,24 @@ const HomePage = ({ data }) => {
                   width={175}
                   style={{ objectFit: "cover", borderRadius: 8 }}
                 />
-                <p className="font-bold font-sans-serif lg:text-2xl sm:text-lg">
+                <h1 className="font-bold font-sans-serif lg:text-2xl sm:text-lg">
                   Gophers
-                </p>
+                </h1>
             </div>
           </div>
         </div>
 
         <div className=" justify-items-center bg-green-700 rounded-lg p-1 md:w-1/3 flex flex-col flex-grow-2 bg-green-700">
-          <h2 className="text-2xl md:text-3xl text-white font-bold font-sans-serif text-center">
+          <h1 className="text-2xl md:text-3xl text-white font-bold font-sans-serif text-center">
             Schedule a Free Inspection Today!
-          </h2>
+          </h1>
           <NewKeapForm />
         </div>
 
         <div className="h-full justify-end px-1 md:w-1/3  md:mx-1 bg-gray-100 md:bg-white">
-          <h2 className="text-2xl md:text-3xl text-green-700 font-bold font-sans-serif text-center">
+          <h1 className="text-2xl md:text-3xl text-green-700 font-bold font-sans-serif text-center">
             Housecall Pro Reviews
-          </h2>
+          </h1>
 
           <div className="w-full">
             <iframe
@@ -87,9 +87,9 @@ const HomePage = ({ data }) => {
             />
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="">
+      <section>
         <h2 className="text-xl md:text-4xl text-green-700 font-bold text-center font-sans-serif my-2 mx-1">
           The Bay Area's Trusted Source for Mole, Vole, and Gopher control.
         </h2>
@@ -102,44 +102,44 @@ const HomePage = ({ data }) => {
           </p>
 
           <div className="my-5 space-y-1">
-            <p className="font-bold text-green-700 text-xl md:text-3xl my-1">
-              Key benefits
-            </p>
-            <p className="font-bold text-l text-green-700">Humane Solutions</p>
+            <h1 className="font-bold text-green-700 text-xl md:text-2xl my-1">
+              What sets us apart from other pest control services in the Bay Area?
+            </h1>
+            <h2 className="font-bold text-l text-green-700">Humane Solutions</h2>
             <p>
               We prioritize the safety and well-being of both your property and
               the gophers.
             </p>
 
-            <p className="font-bold text-l text-green-700">Ethical Practices</p>
+            <h2 className="font-bold text-l text-green-700">Ethical Practices</h2>
             <p>
               We adhere to stringent ethcial standards in all our operations.
             </p>
 
-            <p className="font-bold text-l text-green-700">
+            <h2 className="font-bold text-l text-green-700">
               Eco-friendly Methods
-            </p>
+            </h2>
             <p>
               Our non-toxic and eco-friendly solutions are safe for your family
               and pets.
             </p>
 
-            <p className="font-bold text-l text-green-700">Fast Response</p>
+            <h2 className="font-bold text-l text-green-700">Fast Response</h2>
             <p>
               With our rapid response time, we act quickly to address gopher
               issues before they escalate.
             </p>
 
-            <p className="font-bold text-l text-green-700">
+            <h2 className="font-bold text-l text-green-700">
               Comprehensive Services
-            </p>
+            </h2>
             <p>
               From inspection to removal and prevention, we handle every aspect
               of gopher control.
             </p>
           </div>
         </div>
-      </div>
+      </section>
 
       <List_of_cities />
     </div>

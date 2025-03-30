@@ -1,8 +1,6 @@
 import Head from "next/head";
 import BlogCard from "@/src/components/BlogCard/blogCard";
 
-import image from "../../public/mole-hole.jpeg";
-import backyardImage from "../../public/backyard.jpeg";
 import gopherImage from "../../public/gopher.jpg";
 import voleImage from "../../public/vole.jpg";
 import clouds from "../../public/clouds.jpeg";

@@ -2,9 +2,9 @@ import React from "react";
 
 function CallToAction({ title }) {
   return (
-    <div className="my-3">
+    <section className="my-3">
       {title ? (
-        <h1 className="text-gray-800 font-semibold text-xl">{title}</h1>
+        <p className="text-gray-800 font-semibold text-xl">{title}</p>
       ) : (
         <></>
       )}
@@ -223,7 +223,7 @@ function CallToAction({ title }) {
           src="https://molebusters.infusionsoft.app/app/webform/overwriteRefererJs"
         ></script>
       </div>
-    </div>
+    </section>
   );
 }
 
