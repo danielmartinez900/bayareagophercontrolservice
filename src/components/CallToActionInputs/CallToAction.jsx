@@ -1,13 +1,10 @@
-import React from "react";
+import Link from 'next/link'
 
 function CallToAction({ title }) {
   return (
     <section className="my-3">
-      {title ? (
-        <p className="text-gray-800 font-semibold text-xl">{title}</p>
-      ) : (
-        <></>
-      )}
+        <p className="text-black font-semibold text-xl">Visit our full page at <Link href='http://www.mymolebusters.com' className='text-blue-500 underline'>mymolebusters.com</Link>  or call us at
+        866.960.6653 Ext. 0 for more information!</p>
 
       <div className="flex flex-col p-2  overflow-scroll justify-around bg-green-700 rounded-md">
         <form

@@ -99,15 +99,17 @@ const Page = () => {
             dawn or dusk. If you spot one, there are likely many more hiding
             below the surface.
           </p>
+          <p>
+            If you notice any of these signs on your property, it's time to take
+            action. Gopher infestations can quickly escalate, causing more
+            damage over time. At Mole Busters, we provide humane and effective
+            gopher control services to tackle your gopher problems in the Bay
+            Area!
+          </p>
         </section>
       </main>
 
-      <CallToAction
-        title="If you notice any of these signs on your property, it's time to take
-        action. Gopher infestations can quickly escalate, causing more damage
-        over time. At Mole Busters, we provide humane and effective gopher
-        control services to tackle your gopher problems in the Bay Area! "
-      />
+      <CallToAction />
     </article>
   );
 };
