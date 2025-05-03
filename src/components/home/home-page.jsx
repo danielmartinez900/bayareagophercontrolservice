@@ -91,7 +91,7 @@ const HomePage = ({ data }) => {
 
       <section>
         <h2 className="text-xl md:text-4xl text-green-700 font-bold text-center font-sans-serif my-2 mx-1">
-          The Bay Area's Trusted Source for Mole, Vole, and Gopher control.
+          The Bay Area's Trusted Source for Mole, Vole, and Gopher Control.
         </h2>
         <div className="mx-5 gap-8">
           <p className="text-md font-medium">

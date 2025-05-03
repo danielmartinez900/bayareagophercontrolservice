@@ -2,6 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 
+import CallToAction from "@/src/components/CallToActionInputs/CallToAction";
 import image from "../public/mole-busters-banner.jpg";
 
 const Page = () => {
@@ -75,6 +76,7 @@ const Page = () => {
         Learn more about our services or get in touch with us today. Let's work
         together to exterminate your gopher problem.
       </p>
+      <CallToAction />
     </div>
   );
 };

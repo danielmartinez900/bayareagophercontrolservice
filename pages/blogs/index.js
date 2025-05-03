@@ -1,9 +1,11 @@
 import Head from "next/head";
 import BlogCard from "@/src/components/BlogCard/blogCard";
+import Link from "next/link";
 
 import gopherImage from "../../public/gopher.jpg";
 import voleImage from "../../public/vole.jpg";
-import clouds from "../../public/clouds.jpeg";
+import moleImage from "../../public/mole.jpg";
+import banner from "../../public/mole-busters-banner.jpg";
 
 const Page = () => {
   return (
@@ -14,36 +16,38 @@ const Page = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <link rel="icon" href="icon.ico" type="image/ico" sizes="16x16" />
-      <a href="/blogs/Top-5-Signs-You-Have-a-Gopher-Problem-in-the-Bay-Area">
+      <Link href="/blogs/DIY-or-Professional-Which-is-Right-for-Your-Yard-to-Get-Rid-of-Gophers">
         <BlogCard
-          image={gopherImage}
-          imageAlt={'Image of a gopher'}
-          title="Top 5 Signs You Have a Gopher Problem in the Bay Area"
-          description="Gophers can cause a lot of problems to your yard. Here are 5 simple
-          ways you can identity a gopher problem early on.  "
-          date="02/18/2025"
+          image={banner}
+          imageAlt={"Mole Busters banner"}
+          title="DIY or Professional? Which is Right for Your Yard to Get Rid of Gophers?"
+          description="This article explores the pros and cons of each
+          approach to help you decide which is right for your yard."
+          date="May 3, 2025"
         />
-      </a>
-      <a href="/blogs/Moles-Vs-Voles-Whats-The-Differnce">
+      </Link>
+      <Link href="/blogs/Moles-in-Your-Lawn-Understanding-Their-Motivations-and-Habits">
+        <BlogCard
+          image={moleImage}
+          imageAlt={"Mole"}
+          title="Moles in Your Lawn: Understanding Their Motivations and Habits"
+          description="This article delves into the science behind mole behavior, exploring
+          how they dig, what attracts them, their diet, and their habits, with a
+          special focus on moles in the Bay Area."
+          date="April 21, 2025"
+        />
+      </Link>
+      <Link href="/blogs/Moles-Vs-Voles-Whats-The-Differnce">
         <BlogCard
           image={voleImage}
-          imageAlt={'Image of a vole'}
+          imageAlt={"Image of a vole"}
           title="Moles vs Voles: What's the Difference?"
           description="Moles and voles are often confused due to their similar burrowing
           habits, but they have distinct differences in appearance, diet, and
           behavior. "
-          date="02/20/2025"
+          date="April 21, 2025"
         />
-      </a>
-      <a href="/blogs/How-Climate-Affects-Moles-and-Gophers-in-the-Bay-Area">
-        <BlogCard
-          image={clouds}
-          imageAlt={'Image of clouds'}
-          title="How Climate Affects Moles and Gophers in the Bay Area"
-          description="The Bay Area’s unique climate plays a significant role in the behavior and activity of moles and gophers. Understanding these effects can help you better manage and prevent these pests from invading your yard."
-          date="02/20/2025"
-        />
-      </a>
+      </Link>
     </div>
   );
 };
