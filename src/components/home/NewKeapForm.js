@@ -128,7 +128,7 @@ function NewKeapForm() {
                 </label>
               </div>
               <div className="infusion-radio flex flex-col">
-                <span >
+                <span>
                   <input
                     id="inf_option_Radio_1427"
                     name="inf_option_Radio"
@@ -142,7 +142,7 @@ function NewKeapForm() {
                     Moles
                   </label>
                 </span>
-                <span >
+                <span>
                   <input
                     id="inf_option_Radio_1429"
                     name="inf_option_Radio"
@@ -156,7 +156,7 @@ function NewKeapForm() {
                     Voles
                   </label>
                 </span>
-                <span >
+                <span>
                   <input
                     id="inf_option_Radio_1435"
                     name="inf_option_Radio"
@@ -189,9 +189,9 @@ function NewKeapForm() {
           </div>
         </div>
 
-        <div className=" text-center flex justify-center">
+        <div className="text-center flex justify-center">
           <button
-            className="infusion-recaptcha font-bold space-x-1 text-lg text-white w-full bg-red-600 rounded-md"
+            className="infusion-recaptcha font-bold space-x-1 text-lg text-white w-full bg-red-600 rounded-md cursor-pointer transition-colors duration-500 ease-in-out hover:opacity-90"
             id="recaptcha_047203016e92829fa4f4088317b821ff"
             type="submit"
           >
