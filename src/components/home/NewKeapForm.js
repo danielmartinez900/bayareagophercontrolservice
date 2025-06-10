@@ -35,7 +35,7 @@ function NewKeapForm() {
               name="inf_field_FirstName"
               placeholder="First Name"
               type="text"
-              className="rounded-lg p-1 "
+              className="rounded-lg p-1 bg-white border border-gray-600"
             />
           </div>
 
@@ -51,7 +51,7 @@ function NewKeapForm() {
               name="inf_field_LastName"
               placeholder="Last Name"
               type="text"
-              className="rounded-lg p-1"
+              className="rounded-lg p-1 bg-white border border-gray-600"
             />
           </div>
           <div className="grid md:grid-cols-2 my-1">
@@ -66,7 +66,7 @@ function NewKeapForm() {
               name="inf_field_Email"
               placeholder="Email"
               type="text"
-              className="rounded-lg p-1"
+              className="rounded-lg p-1 bg-white border border-gray-600"
             />
           </div>
           <div className="grid md:grid-cols-2 my-1">
@@ -81,7 +81,7 @@ function NewKeapForm() {
               name="inf_field_Phone1"
               placeholder="Phone"
               type="text"
-              className="rounded-lg p-1"
+              className="rounded-lg p-1 bg-white border border-gray-600"
             />
           </div>
           <div className="grid md:grid-cols-2 my-1">
@@ -96,13 +96,13 @@ function NewKeapForm() {
               name="inf_custom_Address"
               placeholder="Address"
               type="text"
-              className="rounded-lg p-1"
+              className="rounded-lg p-1 bg-white border border-gray-600"
             />
           </div>
           <div className="grid md:grid-cols-2 my-1">
             <label
               htmlFor="inf_custom_City1"
-              className="font-bold lg:text-lg  text-white"
+              className="font-bold lg:text-lg text-white"
             >
               City*
             </label>
@@ -111,7 +111,7 @@ function NewKeapForm() {
               name="inf_custom_City1"
               placeholder="City"
               type="text"
-              className="rounded-lg p-1"
+              className="rounded-lg p-1 bg-white border border-gray-600"
             />
           </div>
         </div>
