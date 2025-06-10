@@ -74,7 +74,7 @@ const HomePage = ({ data }) => {
           <NewKeapForm />
         </div>
 
-        <div className="h-full justify-end px-1 md:w-1/3  md:mx-1 bg-gray-100 md:bg-white">
+        <div className="h-full justify-end px-1 md:w-1/3 md:mx-1 bg-gray-100 md:bg-white">
           <h1 className="text-2xl md:text-3xl text-green-700 font-bold font-sans-serif text-center">
             Housecall Pro Reviews
           </h1>

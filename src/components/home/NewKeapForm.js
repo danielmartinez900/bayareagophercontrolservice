@@ -2,11 +2,11 @@ import React from "react";
 
 function NewKeapForm() {
   return (
-    <div className="flex flex-col m-1 h-full overflow-scroll justify-around">
+    <div className="flex flex-col m-1 h-full justify-around">
       <form
         acceptCharset="UTF-8"
         action="https://molebusters.infusionsoft.com/app/form/process/047203016e92829fa4f4088317b821ff"
-        className="h-full justify-between flex flex-col justify-evenly"
+        className="h-full flex flex-col justify-evenly"
         id="inf_form_047203016e92829fa4f4088317b821ff"
         method="POST"
       >
@@ -22,8 +22,8 @@ function NewKeapForm() {
           value="1.70.0.784947"
         />
 
-        <div className="flex flex-col justify-evenly">
-          <div  className="flex flex-col md:flex-row justify-between my-1">
+        <div className="grid">
+          <div className="grid md:grid-cols-2 my-1">
             <label
               htmlFor="inf_field_FirstName"
               className="font-bold text-md lg:text-lg text-white"
@@ -35,11 +35,11 @@ function NewKeapForm() {
               name="inf_field_FirstName"
               placeholder="First Name"
               type="text"
-              className="rounded-sm p-1 lg:p2"
+              className="rounded-lg p-1 "
             />
           </div>
 
-          <div className="flex flex-col md:flex-row justify-between my-1">
+          <div className="grid md:grid-cols-2  my-1">
             <label
               htmlFor="inf_field_LastName"
               className="font-bold text-md lg:text-lg  text-white"
@@ -51,10 +51,10 @@ function NewKeapForm() {
               name="inf_field_LastName"
               placeholder="Last Name"
               type="text"
-              className="rounded-sm p-1 lg:p2"
+              className="rounded-lg p-1"
             />
           </div>
-          <div className="flex flex-col md:flex-row justify-between my-1">
+          <div className="grid md:grid-cols-2 my-1">
             <label
               htmlFor="inf_field_Email"
               className="font-bold text-md lg:text-lg  text-white"
@@ -66,10 +66,10 @@ function NewKeapForm() {
               name="inf_field_Email"
               placeholder="Email"
               type="text"
-              className="rounded-sm p-1 lg:p2"
+              className="rounded-lg p-1"
             />
           </div>
-          <div className="flex flex-col md:flex-row justify-between my-1">
+          <div className="grid md:grid-cols-2 my-1">
             <label
               htmlFor="inf_field_Phone1"
               className="font-bold text-md lg:text-lg  text-white"
@@ -81,10 +81,10 @@ function NewKeapForm() {
               name="inf_field_Phone1"
               placeholder="Phone"
               type="text"
-              className="rounded-sm p-1 lg:p2"
+              className="rounded-lg p-1"
             />
           </div>
-          <div className="flex flex-col md:flex-row justify-between my-1">
+          <div className="grid md:grid-cols-2 my-1">
             <label
               htmlFor="inf_custom_Address"
               className="font-bold text-md lg:text-lg text-white"
@@ -96,10 +96,10 @@ function NewKeapForm() {
               name="inf_custom_Address"
               placeholder="Address"
               type="text"
-              className="rounded-sm p-1 lg:p2"
+              className="rounded-lg p-1"
             />
           </div>
-          <div className="flex flex-col md:flex-row justify-between my-1">
+          <div className="grid md:grid-cols-2 my-1">
             <label
               htmlFor="inf_custom_City1"
               className="font-bold lg:text-lg  text-white"
@@ -111,7 +111,7 @@ function NewKeapForm() {
               name="inf_custom_City1"
               placeholder="City"
               type="text"
-              className="rounded-sm p-1 lg:p2"
+              className="rounded-lg p-1"
             />
           </div>
         </div>
